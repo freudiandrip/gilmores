@@ -36,7 +36,6 @@ Initially, both an exponential and linear scale were used to plot out the titles
 
 ### 3.1 Collection
 The following methods were used in order to obtain the data
-- Compiling a list by scraping
 - Obtaining a .csv export of a goodreads list to export to OPENLIB
 - fill in missing gaps (by ISBN) using chatGPT
 - Concurrent calls to OPENLIB books + covers API
