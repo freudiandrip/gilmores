@@ -1,5 +1,5 @@
-# LEDE PROJECT 1 ANALYSIS
-### The Gilmore Girls Literary Canon
+# LEDE PROJECT NO. X ANALYSIS
+### TITLE HERE
 Completed project can be found [here]("nguyenkim.ca/data-viz/gg/gilmores)
 
 ## 1. Project Motivations
