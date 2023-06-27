@@ -3,7 +3,7 @@
 Completed project can be found [here]("nguyenkim.ca/data-viz/gg/gilmores")
 
 ## 1. Project Motivations
-This project was an excuse to apply some D3 using a dataset with nice sample size in the hundreds. Though book data isn't as accessible as previously (:headstone: Goodreads), it's still readily available and relatively easy to obtain if you're willing to poke around. 
+This project was an excuse to apply D3 using a dataset with nice sample size in the hundreds. Though book data isn't as accessible as previously (:headstone: Goodreads), it's still relatively easy to obtain. 
 
 Technical aspects aside, the subject matter is interesting to me (books), and I thought it would be stylistically fun to apply it to Gilmore Girls, a show about books.
 
