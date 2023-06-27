@@ -58,7 +58,7 @@ Addressing the issues + nice to haves in 5.1 and 5.2
 - Cross validate for incorrect year info based on edition or faulty user input.
 
 ### 5.2 Nice to haves
-- Another graphic
+- Another graphic (maybe a div with searchable titles + filters?)
 - D3 annotations 
 - Create filters based on genre or subject matter.
 - Allow users to slice / zoom into different periods.
