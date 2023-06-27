@@ -3,20 +3,20 @@
 Completed project can be found [here]("nguyenkim.ca/data-viz/gg/gilmores")
 
 ## 1. Project Motivations
-This project was an excuse to apply D3 using a dataset with nice sample size in the hundreds. Though book data isn't as accessible as previously (:headstone: Goodreads), it's still relatively easy to obtain. 
+This project was an excuse to use D3 using a dataset with nice sample size in the hundreds. Though book data isn't as accessible as previously (:headstone: Goodreads), it's still relatively easy to obtain. 
 
-Technical aspects aside, the subject matter is interesting to me (books), and I thought it would be stylistically fun to apply it to Gilmore Girls, a show about books.
+Technical aspects aside, the subject matter is interesting to me, and I thought it would be stylistically fun to apply it to Gilmore Girls, a show about books.
 
 ## 2. Findings 
 
 ### 2.1 Preliminary design choices
-After obtaining the data, I was primarily interested in using D3 to visualize it because only D3 allowed for the fine-tuning that was required.
+After obtaining the data, I was primarily interested in using D3 for fine-tuning.
 
 Because the graphic was measured one-dimensionally, I decided on a beeswarm plot. Beeswarm plots aren't available on data wrapper / flourish or require a premium subscription, confirming my choice in using D3.
 
 ### 2.2 The shape of the data
 
-Initially, I employed both an exponential and linear scale to plot out the titles but the data was so heavily skewed, the linear scale was breaking on update which lead me to abandoning it and sticking with an exp scale.
+Initially, both an exponential and linear scale were used to plot out the titles but the data was so heavily skewed, the linear scale was breaking on update which lead sticking with a single exp scale.
 
 ## 3. Methodology
 #### Design stack:
