@@ -1,6 +1,6 @@
 # LEDE PROJECT 1 ANALYSIS
 ### The Gilmore Girls Literary Canon
-Completed project can be found [here]("nguyenkim.ca/data-viz/gg/gilmores")
+Completed project can be found [here]("https://nguyenkim.ca/data-viz/gg/gilmores")
 
 ## 1. Project Motivations
 This project was an excuse to use D3 using a dataset with nice sample size in the hundreds. Though book data isn't as accessible as previously (:headstone: Goodreads), it's still relatively easy to obtain. 
