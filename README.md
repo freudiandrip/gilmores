@@ -30,14 +30,16 @@ Initially, both an exponential and linear scale were used to plot out the titles
 	- Wiki API
 	- GRScraper
  	- OpenLib Books and Covers API
+  	- ChatGPT
 	- Jupyter Lab + Pandas
 	- D3
 
 ### 3.1 Collection
 The following methods were used in order to obtain the data
+- Compiling a list by scraping
 - Obtaining a .csv export of a goodreads list to export to OPENLIB
-- Using OPENLIB's Api 
-- Concurrent Scraping
+- fill in missing gaps (by ISBN) using chatGPT
+- Concurrent calls to OPENLIB books + covers API
 - Compile data, prepped for analysis 
 
 ### 3.2 Analysis
