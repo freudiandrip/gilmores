@@ -1,0 +1,88 @@
+# GG ROUGH DOCS
+
+## HUMAN NOTES FOR KIM:
+- MIRRORED BEESWARM
+	- LOG SCALE TOGGLE 
+	- d3.linear + d3.log
+
+## D3 PLOT STUFF
+- https://martinheinz.dev/blog/27
+	- https://github.com/MartinHeinz/charts/blob/master/beeswarm/beeswarm.js
+- https://observablehq.com/@d3/beeswarm/2?intent=fork
+- https://www.chartfleau.com/tutorials/d3swarm
+
+### D3 DOCS!!!!
+- https://www.d3indepth.com/scales/
+- https://observablehq.com/@d3/continuous-scales#scale_pow
+- https://gramener.github.io/d3js-playbook/events.html
+- https://github.com/d3/d3-axis
+- https://www.d3indepth.com/axes/
+- https://www.d3indepth.com/scales/
+
+### D3 ANNOTATIONS LIB
+- https://d3-annotation.susielu.com/#types
+- https://d3-graph-gallery.com/graph/custom_annotation.html
+
+
+## PRELIMINARY
+- GG LITERARY CANON
+	- https://www.goodreads.com/list/show/72680.Gilmore_Girls_Complete_Reading_List
+- https://flourish.studio/blog/visualizing-data-15th-century-bookshop/
+
+## LIB DOCS
+*REQUESTS*
+	- https://requests.readthedocs.io/en/latest/user/quickstart/
+
+## API STUFF
+- https://openlibrary.org/dev/docs/api/covers
+- https://openlibrary.org/dev/docs/api/books
+- https://github.com/tnmyk/goodreads-bookshelf-api
+- https://openlibrary.org/dev/docs/api/covers
+
+
+## 0616 MENTORSHIP NOTES
+- GRAB EDITION --> HIT OPEN LIB API --> SEARCH BY OPENID KEY --> FILTER AND WEIGH BY VIEWS OR SOME METRIC.
+- https://realpython.com/python-concurrency/
+
+## METHODOLOGY DRAWBACKS
+- loss of data from GR import
+- entries did not exist on OPEN LIB 
+- inconsistent data structuring in open lib api (i.e.: missing key-values like description or subject; keys not structured the same like year published; inconsistent languages stored, author's name in Russian vs English.)
+- 
+
+
+### PANDAS SHIT
+https://pandas.pydata.org/docs/user_guide/indexing.html
+
+https://pandas.pydata.org/docs/user_guide/cookbook.html#cookbook-merge
+
+https://pandas.pydata.org/docs/user_guide/merging.html
+
+https://datatofish.com/data-type-pandas-dataframe/
+
+https://martinheinz.dev/blog/27
+
+https://pandas.pydata.org/docs/reference/api/pandas.read_json.html
+
+https://www.statology.org/pandas-filter-by-boolean-column/
+
+https://pandas.pydata.org/docs/getting_started/intro_tutorials/05_add_columns.html
+
+## MISC
+### FOR AUTHORS / TITLES NOT ENCODED IN ENGLISH
+		- https://stackoverflow.com/questions/27084617/detect-strings-with-non-english-characters-in-python
+
+
+### FILLING IN AN SVG ELEMENT WITH A BACKGROUND IMAGE
+	- https://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-background-image
+	https://stackoverflow.com/questions/11722400/programmatically-change-the-src-of-an-img-tag
+	
+	
+	
+### NOTES JUNE 23
+- ASYNC D3.CSV
+- .then(function(x) {
+		// DO STUFF 
+})
+- https://docs.python.org/3/library/concurrency.html
+- http://cs229.stanford.edu/proj2017/final-reports/5243329.pdf
