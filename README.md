@@ -16,7 +16,9 @@ Because the graphic was measured one-dimensionally, I decided on a beeswarm plot
 
 ### 2.2 The shape of the data
 
-Initially, both an exponential and linear scale were used to plot out the titles but the data was so heavily skewed, the linear scale was breaking on update which lead sticking with a single exp scale.
+The data followed an exponential pattern (with the bulk landing in the 1900s-2000s+), warranting an exponential scale for linearization.
+
+Initially, both an exponential and linear scale were used to plot out the titles but the data was so heavily skewed, the linear scale was breaking on update which lead to scaling the data exponentially.
 
 ## 3. Methodology
 #### Design stack:
@@ -26,8 +28,8 @@ Initially, both an exponential and linear scale were used to plot out the titles
 #### Tools used:
 - Scraping + Processing + Viz: 
 	- Wiki API
-	- OpenLib Books and Covers API
 	- GRScraper
+ 	- OpenLib Books and Covers API
 	- Jupyter Lab + Pandas
 	- D3
 
@@ -36,11 +38,11 @@ The following methods were used in order to obtain the data
 - Obtaining a .csv export of a goodreads list to export to OPENLIB
 - Using OPENLIB's Api 
 - Concurrent Scraping
-- Compile data -> analysis 
+- Compile data, prepped for analysis 
 
 ### 3.2 Analysis
-- Pandas -> csv
-- JS + D3 (front-end)
+- Pandas processing + cleaning
+- Output to CSV, feed into JS + D3 (processing on the fly + viz)
 
 ## 4. Reflections
 Collecting data then analysis made up the bulk of work. 90% was devoted to data (collecting, parsing + cleaning, visualizing), with the remaining 10% spent on design, laying out the page, writing, design.
