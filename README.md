@@ -16,9 +16,9 @@ Because the graphic was measured one-dimensionally, I decided on a beeswarm plot
 
 ### 2.2 The shape of the data
 
-The data followed an exponential pattern (with the bulk landing in the 1900s-2000s+), warranting an exponential scale for linearization.
+The data followed an exponential pattern (with the bulk landing in the 1900s-2000s+), warranting an exponential scale for linearization + readability.
 
-Initially, both an exponential and linear scale were used to plot out the titles but the data was so heavily skewed, the linear scale was breaking on update which lead to scaling the data exponentially.
+Initially, both an exponential and linear scale were used to plot out the titles but the data was so heavily skewed, the linear scale was breaking on update which lead to only scaling the data exponentially.
 
 ## 3. Methodology
 #### Design stack:
