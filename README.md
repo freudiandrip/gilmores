@@ -54,7 +54,7 @@ Addressing the issues + nice to haves in 5.1 and 5.2
 ### 5.1 Issues to fix
 - Inconsistencies in language and UTF formatting (titles are in Cyrillic, Greek, etc.); English and UTF-8
 - Inconsistent formatting and gaps in data from user input (or lack of it).
-- Infobox responsiveness with a `@media` query + flex.
+- ~Infobox responsiveness with a `@media` query + flex.~
 - Refine genres and subjects per title.
 - Cross validate for incorrect year info based on edition or faulty user input.
 
