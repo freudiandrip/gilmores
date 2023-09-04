@@ -65,5 +65,3 @@ Addressing the issues + nice to haves in 5.1 and 5.2
 - Allow users to slice / zoom into different periods.
 - JS animations
 - Expand to make it a fully fleshed out written piece.
------------------------------
-contact: hi@nguyenkim.ca
